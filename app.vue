@@ -8,12 +8,43 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 import Toaster from '@/components/ui/toast/Toaster.vue'
+import processSignIn from '@/lib/signin'
+import { Toaster as Toaster2} from '@/components/ui/sonner'
+import { toast } from 'vue-sonner'
+
+let text="Get Started";
+
+onMounted(() => {
+    toast('At registration, you are gifted with a free Starter Plan', {
+        description: 'Enjoy it now ! 🎉',
+        /*
+        action: {
+        label: 'Ok',
+        onClick: () => navigateTo('/auth/login'),
+        },
+        */
+        action: {
+            label: 'Got it',
+            onClick: () => { },
+        },
+    })
+})
+
+async function actionPricing(plan : string){
+    await processSignIn()
+}
+
 </script>
 
 
 <template>
-  <Toaster />
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <Toaster2 />
+    <Toaster />
+    <LandingHeader />
+    <LandingAbout />
+    <LandingFeatures />
+    <LandingHow />
+    <!--<LandingStats />-->
+    <!--<LandingTeam />-->
+    <LandingFooter />
 </template>

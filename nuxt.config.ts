@@ -2,13 +2,9 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/supabase',
     'shadcn-nuxt',
     "@nuxtjs/plausible"
   ],
-  supabase: {
-    redirect : false,
-  },
   ssr: false,
   runtimeConfig: {
     AUTH_HEADER: process.env.LEMON_SQUEEZY,

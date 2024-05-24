@@ -25,9 +25,7 @@
     "vue-sonner": "^1.1.2"
   },
   "devDependencies": {
-    "@nuxtjs/supabase": "^1.2.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "@prisma/client": "5.13.0",
     "shadcn-nuxt": "^0.10.2",
     "typescript": "^5.4.5"
   }

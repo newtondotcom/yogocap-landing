@@ -1,21 +1,5 @@
 <script setup lang="ts">
-const user = await useSupabaseUser();
 const userLoggedIn = ref(false);
-userLoggedIn.value = user.value ? true : false;
-
-watch(() => user, async (user) => {
-  if (user.value) {
-    userLoggedIn.value = true;
-    const state = await $fetch("/api/dashboard/newuser");
-    if (state == "deleted") {
-      userLoggedIn.value = false;
-      alert("Your account has been deleted");
-    }
-  } else {
-    userLoggedIn.value = false;
-    console.log("User logged out");
-  }
-}, { immediate: true }); 
 </script>
 
 <template>

@@ -1,7 +1,7 @@
-const supabase = useSupabaseClient();
+
 
 export default async function processSignIn() {
-    const user = useSupabaseUser();
+    const user = null;
     if (user.value) {
         navigateTo('/dashboard');
     } else {
