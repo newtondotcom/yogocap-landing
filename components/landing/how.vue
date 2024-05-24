@@ -86,8 +86,7 @@
 
 <script setup lang="ts">
 import processSignIn from '@/lib/signin'
-
-async function process(){
-    await processSignIn()
+async function process() {
+  await processSignIn()
 }
 </script>
