@@ -2,7 +2,9 @@
   <footer class="bg-gray-100">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
       <div class="flex justify-center text-primary/95">
-        <div class="text-primary font-bold text-2xl underline">Yogocap</div>
+      <NuxtLink to="/">
+        <div class="text-primary font-bold text-2xl underline cursor-pointer">Yogocap</div>
+      </NuxtLink>
       </div>
       <div class="flex justify-center text-primary/95 mt-2">
         <div class="text-primary text-md">support[at]yogocap[dot]com</div>
