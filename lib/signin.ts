@@ -1,5 +1,8 @@
+import constants from "./constants"
+
 export default async function processSignIn() {
-    await navigateTo('https://app.yogocap.com', {
+    const url = constants.URL_APP;
+    await navigateTo(url, {
         external: true
     })
 }
