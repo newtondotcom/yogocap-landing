@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "constants" : "curl https://raw.githubusercontent.com/newtondotcom/yogocap-nuxt/main/lib/constants.ts -o lib/constants.ts"
   },
   "dependencies": {
     "@nuxtjs/plausible": "^1.0.0",
