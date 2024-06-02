@@ -9,6 +9,7 @@ defineProps({
     required: true
   }
 });
+import constants from '~/lib/constants';
 </script>
 
 <template>
@@ -26,12 +27,12 @@ defineProps({
             </h2>
     
             <p class="mt-2 text-gray-700">
-              A plan to begin with <span class="text-primary">Yogocap 🚀</span> which includes basic features
+              A plan to begin with <span class="text-primary">Yogocap 🚀</span> which includes basic features and low limitations for a tiny budget.
             </p>
     
             <p class="mt-2 sm:mt-4">
               <strong class="text-3xl font-bold text-gray-900 sm:text-4xl">
-                5€
+                {{constants.PRICE_SLOW}}€
               </strong>
     
               <span class="text-sm font-medium text-gray-700">one time</span>
@@ -64,7 +65,7 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> 60 videos</span>
+                <span class="text-gray-700"> {{constants.NB_VIDEOS_SLOW}} videos</span>
               </li>
     
               <li class="flex items-center gap-1">
@@ -83,7 +84,7 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> 3 min maximum per video </span>
+                <span class="text-gray-700"> {{constants.DURATION_SLOW / 60}} min maximum per video </span>
               </li>
     
               <li class="flex items-center gap-1">
@@ -102,9 +103,9 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> Free copyright song</span>
+                <span class="text-gray-700"> Cutting video silent parts  (<span class="text-sm">experimental</span>)</span>
               </li>
-  
+    
               <li class="flex items-center gap-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +122,7 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> Auto cut silent video parts</span>
+                <span class="text-gray-700"> Free copyright song (<span class="text-sm">coming soon</span>)</span>
               </li>
     
               <li class="flex items-center gap-1">
@@ -140,7 +141,7 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> Dynamic emojis </span>
+                <span class="text-gray-700"> Dynamic emojis (<span class="text-sm">coming soon</span>) </span>
               </li>
     
               <li class="flex items-center gap-1">
@@ -180,7 +181,7 @@ defineProps({
     
             <p class="mt-2 sm:mt-4">
               <strong class="text-3xl font-bold text-gray-900 sm:text-4xl">
-                15€
+                {{constants.PRICE_MEDIUM}}€
               </strong>
     
               <span class="text-sm font-medium text-gray-700">one time</span>
@@ -213,7 +214,7 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> 120 videos</span>
+                <span class="text-gray-700"> {{constants.NB_VIDEOS_MEDIUM}} videos</span>
               </li>
     
               <li class="flex items-center gap-1">
@@ -232,26 +233,7 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> 15 min maximum per video </span>
-              </li>
-    
-              <li class="flex items-center gap-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="h-5 w-5 text-primary"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M4.5 12.75l6 6 9-13.5"
-                  />
-                </svg>
-    
-                <span class="text-gray-700"> Free copyright song</span>
+                <span class="text-gray-700">  {{constants.DURATION_MEDIUM / 60}} min maximum per video </span>
               </li>
   
               <li class="flex items-center gap-1">
@@ -270,7 +252,7 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> Auto cut silent video parts</span>
+                <span class="text-gray-700"> Cutting video silent parts  (<span class="text-sm">experimental</span>)</span>
               </li>
     
               <li class="flex items-center gap-1">
@@ -289,7 +271,26 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> Dynamic emojis </span>
+                <span class="text-gray-700"> Free copyright song (<span class="text-sm">coming soon</span>)</span>
+              </li>
+    
+              <li class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="h-5 w-5 text-primary"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+    
+                <span class="text-gray-700"> Dynamic emojis (<span class="text-sm">coming soon</span>) </span>
               </li>
     
               <li class="flex items-center gap-1">
@@ -329,7 +330,7 @@ defineProps({
     
             <p class="mt-2 sm:mt-4">
               <strong class="text-3xl font-bold text-gray-900 sm:text-4xl">
-                30€
+                {{constants.PRICE_FAST}}€
               </strong>
     
               <span class="text-sm font-medium text-gray-700">one time</span>
@@ -362,7 +363,7 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> 300 videos</span>
+                <span class="text-gray-700"> {{constants.NB_VIDEOS_FAST}} videos</span>
               </li>
     
               <li class="flex items-center gap-1">
@@ -381,7 +382,7 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> 60 min maximum per video </span>
+                <span class="text-gray-700">  {{constants.DURATION_FAST / 60}} min maximum per video </span>
               </li>
     
               <li class="flex items-center gap-1">
@@ -400,26 +401,7 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> Free copyright song</span>
-              </li>
-  
-              <li class="flex items-center gap-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="h-5 w-5 text-primary"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M4.5 12.75l6 6 9-13.5"
-                  />
-                </svg>
-    
-                <span class="text-gray-700"> Auto cut silent video parts</span>
+                <span class="text-gray-700"> Cutting video silent parts  (<span class="text-sm">experimental</span>)</span>
               </li>
     
               <li class="flex items-center gap-1">
@@ -438,7 +420,26 @@ defineProps({
                   />
                 </svg>
     
-                <span class="text-gray-700"> Dynamic emojis </span>
+                <span class="text-gray-700"> Free copyright song (<span class="text-sm">coming soon</span>)</span>
+              </li>
+    
+              <li class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="h-5 w-5 text-primary"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 12.75l6 6 9-13.5"
+                  />
+                </svg>
+    
+                <span class="text-gray-700"> Dynamic emojis (<span class="text-sm">coming soon</span>) </span>
               </li>
     
               <li class="flex items-center gap-1">
