@@ -12,7 +12,9 @@ async function process(){
       class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8"
     >
       <div class="flex">
-        <div class="text-primary font-bold text-2xl underline">Yogocap</div>
+      <NuxtLink to="/">
+        <div class="text-primary font-bold text-2xl underline cursor-pointer">Yogocap</div>
+      </NuxtLink>
       </div>
   
       <div class="flex flex-1 items-center justify-end md:justify-between">
