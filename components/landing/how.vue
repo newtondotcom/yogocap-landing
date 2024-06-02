@@ -20,9 +20,9 @@
         </span>
         create a video in less than a minute
       </h2>
-      <p class="text-base text-gray-700 md:text-lg">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
-      </p>
+    <p class="text-base text-gray-700 md:text-lg">
+      Our platform simplifies video creation, allowing you to produce high-quality content quickly and efficiently. Whether you're a beginner or a seasoned pro, you'll find everything you need to create stunning videos in no time.
+    </p>
     </div>
     <div class="relative grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
       <div class="absolute inset-0 flex items-center justify-center sm:hidden lg:flex">
