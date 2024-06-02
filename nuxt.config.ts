@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     'shadcn-nuxt',
     "@nuxtjs/plausible"
   ],
-  ssr: false,
+  ssr: true,
   runtimeConfig: {
     AUTH_HEADER: process.env.LEMON_SQUEEZY,
     LS_SHOP: process.env.LS_SHOP,
