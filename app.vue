@@ -11,6 +11,7 @@ useSeoMeta({
 import Toaster from '@/components/ui/toast/Toaster.vue'
 import { Toaster as Toaster2} from '@/components/ui/sonner'
 import { toast } from 'vue-sonner';
+import constants from '@/lib/constants'
 
 onMounted(() => {
     toast('At registration, you are gifted with a free Starter Plan', {
@@ -28,14 +29,23 @@ onMounted(() => {
     })
 })
 
+import processSignIn from '@/lib/signin'
+
+async function process(){
+    await processSignIn()
+}
+let text = "Get Started"
+
 </script>
 
 
 <template>
-  <Toaster2 />
+    <Toaster2 />
     <Toaster />
+
     <LandingHeader />
     <LandingAbout />
+    <LandingPricing :action="processSignIn" :text="text" />
     <LandingFeatures />
     <LandingHow />
     <!--<LandingStats />-->
