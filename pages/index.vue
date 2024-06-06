@@ -43,12 +43,10 @@ let text = "Get Started"
     <Toaster2 />
     <Toaster />
 
-    <LandingHeader />
     <LandingAbout />
     <LandingPricing :action="processSignIn" :text="text" />
     <LandingFeatures />
     <LandingHow />
     <!--<LandingStats />-->
     <!--<LandingTeam />-->
-    <LandingFooter />
 </template>
