@@ -14,7 +14,7 @@ import { toast } from 'vue-sonner';
 import constants from '@/lib/constants'
 
 onMounted(() => {
-    toast('At registration, you are gifted with a free Starter Plan', {
+    toast('At registration, you are gifted with a free trial', {
         description: 'Enjoy it now ! 🎉',
         /*
         action: {
