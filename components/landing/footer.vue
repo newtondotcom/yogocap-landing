@@ -29,6 +29,15 @@
         </li>
       </ul>
 
+      <ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+        <li>
+          <a class="text-gray-700 transition hover:text-gray-700/75" href="tos">Terms and Conditions</a>
+        </li>
+        <li>
+          <a class="text-gray-700 transition hover:text-gray-700/75" href="privacy">Privacy policy</a>
+        </li>
+      </ul>
+
       <ul class="mt-12 flex justify-center gap-6 md:gap-8">
 
         <li>
