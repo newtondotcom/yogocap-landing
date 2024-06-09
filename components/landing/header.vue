@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import processSignIn from '@/lib/signin'
-
+const route = useRoute()
 async function process(){
     await processSignIn()
 }
@@ -21,20 +21,20 @@ async function process(){
         <nav aria-label="Global" class="hidden md:block">
           <ul class="flex items-center gap-6 text-sm">
             <li>
-              <a href="#about" class="text-gray-500 transition hover:text-gray-500/75" >
+              <a href="/#about" class="text-gray-500 transition hover:text-gray-500/75" >
                 About
               </a>
             </li>
 
   
             <li>
-              <a href="#pricing" class="text-gray-500 transition hover:text-gray-500/75" >
+              <a href="/#pricing" class="text-gray-500 transition hover:text-gray-500/75" >
                 Pricing
               </a>
             </li>
 
             <li>
-                <a href="#features" class="text-gray-500 transition hover:text-gray-500/75" >
+                <a href="/#features" class="text-gray-500 transition hover:text-gray-500/75" >
                   Features
                 </a>
               </li>
