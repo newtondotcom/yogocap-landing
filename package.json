@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "constants" : "curl https://raw.githubusercontent.com/newtondotcom/yogocap-nuxt/main/lib/constants.ts -o lib/constants.ts"
+    "constants" : "curl https://raw.githubusercontent.com/newtondotcom/yogocap-nuxt/main/lib/constants.ts -o lib/constants.ts",
+    "pricing" : "curl https://raw.githubusercontent.com/newtondotcom/yogocap-nuxt/main/components/landing/pricing.vue -o components/landing/pricing.vue"
   },
   "dependencies": {
     "@nuxtjs/plausible": "^1.0.0",
