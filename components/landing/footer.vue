@@ -65,7 +65,7 @@
         </li>
 
         <li>
-          <a href="https://www.linkedin.com/in/robin-augereau/" rel="noreferrer" target="_blank"
+          <a href="https://www.linkedin.com/company/yogocap/" rel="noreferrer" target="_blank"
             class="text-gray-700 transition hover:text-gray-700/75">
             <span class="sr-only">LinkedIn</span>
             <svg class="h-6 w-6" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
