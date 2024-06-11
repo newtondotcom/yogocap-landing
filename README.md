@@ -1,4 +1,4 @@
-# Yogocap 🚀
+# Yogocap - landing page 🚀
 
 This is my SaaS source code. Yogocap is an AI-based online tool that provides you the opportunity to subtitle videos effortlessly. 🎥✨
 
