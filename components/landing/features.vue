@@ -38,7 +38,7 @@
           <h2 class="mt-4 text-xl font-bold text-white">One time payment</h2>
   
           <p class="mt-1 text-sm text-gray-300">
-            Contrary to concurrents, we don't charge you monthly. You pay once and you are good to go.
+            Contrary to competitors, we don't charge you monthly. You pay once and you are good to go.
           </p>
         </button>
         <button
