@@ -1,11 +1,14 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
+
   modules: [
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
     "@nuxtjs/plausible"
   ],
+
   ssr: true,
+
   runtimeConfig: {
     AUTH_HEADER: process.env.LEMON_SQUEEZY,
     LS_SHOP: process.env.LS_SHOP,
@@ -26,11 +29,14 @@ export default defineNuxtConfig({
     MAIL_USER : process.env.MAIL_USER,
     MAIL_PWD : process.env.MAIL_PWD,
   },
+
   shadcn: {
     prefix: '',
     componentDir: './components/ui'
   },
+
   css : ['~/assets/css/tailwind.css'],
+
   tailwindcss: {
     cssPath: ['~/assets/css/tailwind.css', { injectPosition: "first" }],
     configPath: 'tailwind.config',
@@ -39,8 +45,11 @@ export default defineNuxtConfig({
     },
     viewer: false,
   },
+
   plausible: {
     ignoredHostnames: ['localhost'],
     apiHost : 'https://plaunwt.duckdns.org'
-  }
+  },
+
+  compatibilityDate: '2024-09-01'
 })
