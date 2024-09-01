@@ -47,6 +47,7 @@ let text = "Get Started"
     <LandingPricing :action="processSignIn" :text="text" />
     <LandingFeatures />
     <LandingHow />
+    <LandingFaq />
     <!--<LandingStats />-->
     <!--<LandingTeam />-->
 </template>
