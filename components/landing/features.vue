@@ -35,15 +35,15 @@
             />
           </svg>
   
-          <h2 class="mt-4 text-xl font-bold text-white">One time payment</h2>
+          <h2 class="mt-4 text-xl font-bold text-white">AI Generated Emojis</h2>
   
           <p class="mt-1 text-sm text-gray-300">
-            Contrary to competitors, we don't charge you monthly. You pay once and you are good to go.
+            Benefit from Yogocap AI-generated emojis that match the content of your video. This cutting-edge feature is included in our medium plan, making Yogocap the most cost-effective option for creators looking to enhance their content.
           </p>
         </button>
+
         <button
           class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-primary/10 hover:shadow-primary/10"
-          
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -64,11 +64,10 @@
             />
           </svg>
   
-          <h2 class="mt-4 text-xl font-bold text-white">Budget-Friendly</h2>
+          <h2 class="mt-4 text-xl font-bold text-white">One time payment</h2>
   
           <p class="mt-1 text-sm text-gray-300">
-            Experience the revolution in video subtitling without breaking the bank. Yogocap’s AI technology delivers high-quality, accurate subtitles at a fraction of the cost of our competitors.
-             Perfect for content creators and businesses mindful of their budget.
+            Contrary to competitors, we don't charge you monthly. You pay once and you are good to go.
           </p>
         </button>
   
