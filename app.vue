@@ -1,7 +1,7 @@
 <template>
-  <NuxtLayout>
-    <LandingHeader />
-    <NuxtPage />
-    <LandingFooter />
-  </NuxtLayout>
+    <NuxtLayout>
+        <LandingHeader />
+        <NuxtPage />
+        <LandingFooter />
+    </NuxtLayout>
 </template>
