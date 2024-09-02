@@ -1,34 +1,41 @@
 {
-  "name": "yogocap",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "constants" : "curl https://raw.githubusercontent.com/newtondotcom/yogocap-nuxt/main/lib/constants.ts -o lib/constants.ts",
-    "pricing" : "curl https://raw.githubusercontent.com/newtondotcom/yogocap-nuxt/main/components/landing/pricing.vue -o components/landing/pricing.vue"
-  },
-  "dependencies": {
-    "@nuxtjs/plausible": "^1.0.0",
-    "@vueuse/core": "^10.9.0",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.0",
-    "lucide-vue-next": "^0.368.0",
-    "nuxt": "^3.11.2",
-    "radix-vue": "^1.7.0",
-    "raw-body": "^2.5.2",
-    "tailwind-merge": "^2.2.2",
-    "tailwindcss-animate": "^1.0.7",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
-    "vue-sonner": "^1.1.2"
-  },
-  "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.11.4",
-    "shadcn-nuxt": "^0.10.2",
-    "typescript": "^5.4.5"
-  }
+    "name": "yogocap",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "constants": "curl https://raw.githubusercontent.com/newtondotcom/yogocap-nuxt/main/lib/constants.ts -o lib/constants.ts",
+        "pricing": "curl https://raw.githubusercontent.com/newtondotcom/yogocap-nuxt/main/components/landing/pricing.vue -o components/landing/pricing.vue",
+        "prepare": "husky",
+        "format": "pretty-quick --staged"
+    },
+    "dependencies": {
+        "@nuxtjs/plausible": "^1.0.0",
+        "@vueuse/core": "^10.9.0",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.0",
+        "lucide-vue-next": "^0.368.0",
+        "nuxt": "^3.11.2",
+        "radix-vue": "^1.7.0",
+        "raw-body": "^2.5.2",
+        "tailwind-merge": "^2.2.2",
+        "tailwindcss-animate": "^1.0.7",
+        "vue": "^3.4.21",
+        "vue-router": "^4.3.0",
+        "vue-sonner": "^1.1.2"
+    },
+    "devDependencies": {
+        "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+        "@nuxtjs/tailwindcss": "^6.11.4",
+        "husky": "^9.1.5",
+        "prettier": "^3.3.3",
+        "prettier-plugin-tailwindcss": "^0.6.6",
+        "pretty-quick": "^4.0.0",
+        "shadcn-nuxt": "^0.10.2",
+        "typescript": "^5.4.5"
+    }
 }
