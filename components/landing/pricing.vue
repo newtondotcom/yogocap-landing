@@ -66,7 +66,10 @@
                                 />
                             </svg>
 
-                            <span class="text-gray-700">{{ constants.NB_VIDEOS_SLOW }} videos</span>
+                            <span class="text-gray-700">
+                                <strong>{{ constants.NB_VIDEOS_SLOW }}</strong>
+                                videos
+                            </span>
                         </li>
 
                         <li class="flex items-center gap-1">
@@ -107,9 +110,8 @@
                             </svg>
 
                             <span class="text-gray-700">
-                                Cutting video silent parts (
-                                <span class="text-sm">experimental</span>
-                                )
+                                Cutting video silent parts
+                                <span class="text-sm">(experimental)</span>
                             </span>
                         </li>
 
@@ -130,9 +132,8 @@
                             </svg>
 
                             <span class="text-gray-700">
-                                Free copyright song (
-                                <span class="text-sm">coming soon</span>
-                                )
+                                Free copyright song
+                                <span class="text-sm">(coming soon)</span>
                             </span>
                         </li>
 
@@ -171,7 +172,10 @@
                                 />
                             </svg>
 
-                            <span class="text-gray-700">3x faster video rendering (with GPU)</span>
+                            <span class="text-gray-700">
+                                3x faster video rendering
+                                <span class="text-sm">(with GPU)</span>
+                            </span>
                         </li>
                     </ul>
                 </div>
@@ -223,7 +227,8 @@
                             </svg>
 
                             <span class="text-gray-700">
-                                {{ constants.NB_VIDEOS_MEDIUM }} videos
+                                <strong>{{ constants.NB_VIDEOS_MEDIUM }}</strong>
+                                videos
                             </span>
                         </li>
 
@@ -265,9 +270,8 @@
                             </svg>
 
                             <span class="text-gray-700">
-                                Cutting video silent parts (
-                                <span class="text-sm">experimental</span>
-                                )
+                                Cutting video silent parts
+                                <span class="text-sm">(experimental)</span>
                             </span>
                         </li>
 
@@ -288,9 +292,8 @@
                             </svg>
 
                             <span class="text-gray-700">
-                                Free copyright song (
-                                <span class="text-sm">coming soon</span>
-                                )
+                                Free copyright song
+                                <span class="text-sm">(coming soon)</span>
                             </span>
                         </li>
 
@@ -329,7 +332,10 @@
                                 />
                             </svg>
 
-                            <span class="text-gray-700">3x faster video rendering (with GPU)</span>
+                            <span class="text-gray-700">
+                                3x faster video rendering
+                                <span class="text-sm">(with GPU)</span>
+                            </span>
                         </li>
                     </ul>
                 </div>
@@ -381,7 +387,10 @@
                                 />
                             </svg>
 
-                            <span class="text-gray-700">{{ constants.NB_VIDEOS_FAST }} videos</span>
+                            <span class="text-gray-700">
+                                <strong>{{ constants.NB_VIDEOS_FAST }}</strong>
+                                videos
+                            </span>
                         </li>
 
                         <li class="flex items-center gap-1">
@@ -422,9 +431,8 @@
                             </svg>
 
                             <span class="text-gray-700">
-                                Cutting video silent parts (
-                                <span class="text-sm">experimental</span>
-                                )
+                                Cutting video silent parts
+                                <span class="text-sm">(experimental)</span>
                             </span>
                         </li>
 
@@ -445,9 +453,8 @@
                             </svg>
 
                             <span class="text-gray-700">
-                                Free copyright song (
-                                <span class="text-sm">coming soon</span>
-                                )
+                                Free copyright song
+                                <span class="text-sm">(coming soon)</span>
                             </span>
                         </li>
 
@@ -486,7 +493,10 @@
                                 />
                             </svg>
 
-                            <span class="text-gray-700">3x faster video rendering (with GPU)</span>
+                            <span class="text-gray-700">
+                                3x faster video rendering
+                                <span class="text-sm">(with GPU)</span>
+                            </span>
                         </li>
                     </ul>
                 </div>
